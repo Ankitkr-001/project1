@@ -1,0 +1,221 @@
+.testimonials{
+    width: 100%;
+    height: 70vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testi-box{
+    width: 80%;
+    height: 80%;
+    background-color: #917acf27;
+    padding: 40px 60px;
+}
+.quote-icon{
+    height: 50px;
+    width: 50px;
+    background-color: #3d2d69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.quote-icon .testi-icon{
+    height: 20px;
+    color: #fff;
+    
+}
+.quote{
+    display: flex;
+}
+
+.testi-para{
+    padding: 20px 0;
+    font-size: 20px;
+    color: black;
+    line-height: 28x;
+}
+.testi-detail{
+    width: 100%;
+    height: 35%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.testi-play{
+    width: 60%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+    background-color: #573e9cb1;
+}
+.testi-user{
+    width: 30%;
+    height: 80%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.testi-user-profile{
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    background-image: url(	https://i1.sndcdn.com/artworks-000398149563-8x2jj5-t500x500.jpg);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    border-radius: 50%;
+}
+
+.testi-play-icon{
+    height: 35px;
+    color: #fff;
+}
+.play{
+    padding-left: 30px;
+}
+.progress-bar{
+    width: 62%;
+    height: 8%;
+    border: 1px solid black;
+    background-color: white;
+    outline: none;
+    border-radius: 2px;
+    /* margin-right: 40px; */
+}
+
+.player{
+    height: 100%;
+    width: 10% ;
+    background-color: black;
+    border: 1px solid black;
+    /* border-radius: 50%; */
+}
+.player-profile{
+    width: 50px;
+    height: 50px;
+    background-image: url(	https://i1.sndcdn.com/artworks-000398149563-8x2jj5-t500x500.jpg);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    border-radius: 50%;
+}
+.player-user-profile-icon{
+    color: white
+}
+
+.testi-user-text p{
+    color: rgb(85, 146, 170);
+    font-weight: 600;
+}
+
+@media (max-width: 1400px) {
+    .testi-detail{
+        flex-direction: column-reverse;
+        /* justify-content: start;
+        align-items: start; */
+    }
+    .testimonials{
+        height: 100vh;
+    }
+    .testi-user-profile{
+        height: 80px;
+        width: 80px;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .testimonials{
+        height: 120vh;
+    }
+    .testi-detail{
+        
+        justify-content: start;
+        align-items: start;
+    }
+    .testi-user{
+        justify-content: space-evenly;
+        width: 80%;
+    }
+    .testi-play{
+        width: 80%;
+        margin-top: 10px;
+    }
+    .play{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .testimonials{
+        height: 140vh;
+    }
+    .testi-play{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .testimonials{
+        height: 160vh;
+    }
+    .testi-play{
+        width: 100%;
+        height: 40%;
+        margin-top: 10px;
+    }
+    .testi-box{
+        padding: 10px 20px;
+    }
+    .testi-user{
+        height: 40%;
+    }
+}
+
+@media (max-width: 400px) {
+    .testimonials{
+        height: 180vh;
+    }
+    .quote h1{
+        font-size: 30px;
+    }
+    .quote-icon{
+        height: 40px;
+        width: 40px;
+    }
+    .testi-para{
+        font-size: 19px;
+    }
+    .testi-user{
+        height: 30%;
+        
+    }
+
+    .testi-user-profile {
+        height: 71px;
+        width: 71px;
+        margin-right: 10px;
+    }
+    .play{
+        padding-right: 8px;
+    }
+    .progress-bar{
+        width: 58%;
+        margin-right: 5px;
+    }
+    .testimonials{
+        height: 165vh;
+    }
+
+}
+

@@ -1,0 +1,209 @@
+.signin{
+    width: 30%;
+    height: 80%;
+    margin-left: 50px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    /* background-color: red; */
+    /* border: 2px solid #3d2d69; */
+}
+.signIn_text{
+    display: flex;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.home_logo1{
+    display: flex;
+  padding: 20px;
+  display: none;
+}
+.signIn-btn{
+    margin-right: 19px;
+    cursor: pointer;
+    color: #3d2d69;
+    border-bottom: 3px solid #593ea2;
+}
+
+.signIn-btn-color{
+    color: gray;
+    border-bottom: 3px solid gray;
+}
+
+.signUp-btn{
+    color: gray;
+    cursor: pointer;
+    border-bottom: 3px solid gray;
+}
+.signUp-btn-color{
+    color: #3d2d69;
+    border-bottom: 3px solid #3d2d69;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+}
+.google-btn{
+    padding: 9px 15px;
+  font-size: 16px;
+  font-weight: 900;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: start;
+  
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.google-btn h3{
+    padding-left: 90px;
+}
+.form-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input input{
+    padding: 9px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+}
+
+.check{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-box{
+    padding:8px 2px;
+}
+
+.check-box input{
+    margin-right: 5px;
+}
+
+.forget-pass span{
+    margin-left: 5px;
+}
+.or{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    
+}
+.or span{
+    /* width: 100%; */
+    font-size: 20px;
+}
+.login-btn{
+    width: 100%;
+    
+}
+
+.login-btn button{
+    width: 100%;
+    padding: 9px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 900;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.hidden{
+    display: none;
+}
+.check-join{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+.pass-strength span{
+    margin-left: 5px;
+    font-weight: 700;
+    color: gray;
+    font-size: 15px;
+}
+
+.join-text{
+    width: 100%;
+    padding: 10px 2px;
+    font-weight: light;
+    
+}
+.join-text span{
+    font-weight: bold;
+}
+
+.login-btn-join{
+    width: 100%;
+}
+
+.login-btn-join button{
+    width: 100%;
+    padding: 9px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #3d2d69;
+  color: white;
+}
+
+.fb-icon-color{
+    color: #1877F2;
+}
+.g-icon-color{
+    color: blue;
+}
+
+
+/* --media Query */
+
+@media (max-width: 1120px) {
+    .signin{
+        width: 60%;
+    }
+    .home_logo1{
+        display: block;
+    }
+  }
+@media (max-width: 900px) {
+    .signin{
+        width: 80%;
+        margin-left: 30px;
+    }
+    .signIn_text{
+        align-items: center;
+        justify-content: center;
+    }
+  }
+@media (max-width: 600px) {
+    .signin{
+        width: 90%;
+        margin-left: 10px;
+        
+    }
+    .google-btn{
+        font-size: 10px;
+    }
+    .home_logo1{
+        padding-bottom: 5px;
+    }
+  }
