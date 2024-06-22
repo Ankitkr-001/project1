@@ -206,4 +206,11 @@
     .home_logo1{
         padding-bottom: 5px;
     }
+    .signin{
+        width: 98%;
+        margin: 0;
+    }
+    .home_img{
+        padding: 0 7px;
+    }
   }
